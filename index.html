@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="images/123.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Assignment2</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    a:hover {
+      background-color: yellowgreen;
+    }
+
+    .right {
+      width: 800px;
+      border: 1px solid black;
+      font-size: 14px;
+      line-height: 200%;
+      margin: auto;
+      margin-top: 100px;
+      background-color: rgb(80, 63, 129);
+      padding: 20px;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    body {
+      background-image: url(images/background.png);
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-attachment: fixed;
+    }
+
+    .right .component {
+      margin-bottom: 20px;
+    }
+
+    .right form {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+
+    .right input {
+      margin-bottom: 10px;
+    }
+
+    .right button {
+      margin-top: 10px;
+    }
+
+    .right table {
+      width: 100%;
+    }
+
+    .right th,
+    .right td {
+      padding: 5px;
+      text-align: left;
+    }
+  </style>
+  <body>
+    <div id="root">
+      <h1>My React App</h1>
+      <div class="right">
+        <div class="component">
+          <h2>Login View</h2>
+          <form>
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="Password" />
+            <button type="submit">Login</button>
+          </form>
+        </div>
+
+        <div class="component">
+          <h2>Business Contacts List View</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Contact Name</th>
+                <th>Contact Number</th>
+                <th>Email Address</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John Doe</td>
+                <td>1234567890</td>
+                <td>john@example.com</td>
+                <td>
+                  <button>Update</button>
+                  <button>Delete</button>
+                </td>
+              </tr>
+              <tr>
+                <td>Jane Smith</td>
+                <td>9876543210</td>
+                <td>jane@example.com</td>
+                <td>
+                  <button>Update</button>
+                  <button>Delete</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="component">
+          <h2>Update View</h2>
+          <form>
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Contact Number" />
+            <input type="text" placeholder="Email Address" />
+            <button type="submit">Update</button>
+            <button type="button">Delete</button>
+            <button type="button">Cancel</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="left">
+      <ul>
+        <li>
+          <a href="index.html"><b>Home</b></a>
+        </li>
+        <li>
+          <a href="property list 1.html"><b>About Me</b></a>
+        </li>
+        <li>
+          <a href="property list 2.html"><b>Projects page1</b></a>
+        </li>
+        <li>
+          <a href="property list 3.html"><b>Projects page2</b></a>
+        </li>
+        <li>
+          <a href="Properties.html"><b>Projects page3</b></a>
+        </li>
+        <li>
+          <a href="Contact.html"><b>Contact Me</b></a>
+        </li>
+        <li>
+          <a href="Site Map.html"><b>Services page</b></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <h2>
+        My name is Yuzhi Cheng, click here to know more about me:<br />
+        <a href="property list 1.html"><b>About Me</b></a>
+      </h2>
+    </div>
+    <div class="right">
+      <h3>IT Manager/Supervisor</h3>
+      <h4>Shenzhen Anxun Technology Co., Ltd.</h4>
+      <p```
+        As a Technical Support Engineer for Golden Bell and Dongfeng Big Data
+        analysis platform, I provided exceptional customer service and product
+        training to government and enterprise customers. My responsibilities
+        also included managing technical issues, participating in bidding
+        processes, and collaborating with sales to provide pre-sales technical
+        support for multiple projects. In addition, I wrote various technical
+        documents to improve team efficiency and ensure customer satisfaction.
+      </p>
+    </div>
+    <div class="right">
+      <p><b>Contact information:</b></p>
+      <p>
+        Email address:
+        <a href="ycheng53@my.centennialcollege.ca"
+          >ycheng53@my.centennialcollege.ca</a
+        >
+      </p>
+      <p>phone number: 888-555-5555</p>
+    </div>
+    <footer>
+      <small><i>&copy;2022 Real Estate</i></small>
+    </footer>
+  </body>
+</html>
